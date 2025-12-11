@@ -1,3 +1,5 @@
+translate
+*.env
 command_example.sh
 test.txt
 test2.txt

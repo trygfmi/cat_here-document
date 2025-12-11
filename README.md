@@ -388,16 +388,16 @@ cat test.txt</code></pre>
 
 
 <div class="wp-block-group">
-<p>cat &lt;&lt; EOF > test.txtは、次の行からEOFが現れるまでの文字列をcatコマンドで出力して、結果を>の右側に記述されたファイルに出力します<br>EOFは任意の文字列を指定できるので試しに以下のコードを入力してみてください</p>
+<p>cat &lt;&lt; EOF &gt; test.txtは、次の行からEOFが現れるまでの文字列をcatコマンドで出力して、結果を&gt;の右側に記述されたファイルに出力します<br>EOFは任意の文字列を指定できるので試しに以下のコードを入力してみてください</p>
+</div>
 
 
 
-<pre class="wp-block-code has-background" style="background-color:#abb8c3"><code>cat &lt;&lt; aaa > test2.txt
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>cat &lt;&lt; aaa > test2.txt
 test file
 aaa
 
 cat test2.txt</code></pre>
-</div>
 
 
 
